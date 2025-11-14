@@ -1,0 +1,53 @@
+[
+    { 
+        "id": 1, 
+        "name": "Shirt", 
+        "price": 550, 
+        "img": "images/shirt.webp" 
+    },
+
+    { 
+        "id": 2, 
+        "name": "Trouser", 
+        "price": 450, 
+        "img": "images/trouser.jpg" 
+    },
+
+    { 
+        "id": 3, 
+        "name": "T-shirt", 
+        "price": 250, 
+        "img": "images/t-shirt.png" 
+    },
+
+    { 
+        "id": 4, 
+        "name": "Polo", 
+        "price": 350, 
+        "img": "images/polo.png" 
+    },
+
+    { 
+        "id": 5, 
+        "name": "Polo Trouser", 
+        "price": 750, 
+        "discount": 50, 
+        "img": "images/polo-trouser.png" 
+    },
+
+    { 
+        "id": 6, 
+        "name": "Shirt Trouser", 
+        "price": 650, 
+        "discount": 50, 
+        "img": "images/shirt-trouser.png" 
+    },
+
+    { 
+        "id": 7, 
+        "name": "Full", 
+        "price": 1150, 
+        "discount": 100, 
+        "img": "images/full-cloth.png" 
+    }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task 1</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+
+<body>
+  <section class="form">
+    <div class="form-wrapper">
+     
+      <div class="sign_form" id="sign_form">
+        <form onsubmit="event.preventDefault(); register();">
+          <h2>Welcome</h2>
+
+          <label for="reg_name">Name</label><br />
+          <input type="text" id="reg_name" name="reg_name" required /><br /><br />
+
+          <label for="reg_email">Email</label><br />
+          <input type="email" id="reg_email" name="reg_email" required /><br /><br />
+
+          <label for="reg_password">Password</label><br />
+          <input type="password" id="reg_password" name="reg_password" minlength="8" required /><br /><br />
+
+          <label for="reg_age">Age</label><br />
+          <input type="number" id="reg_age" name="reg_age" required /><br /><br />
+
+          <button class="submit">Register</button>
+
+          <h4>Already have an account?</h4>
+          <a href="#" onclick="showLogin()">Log in</a>
+        </form>
+      </div>
+
+      
+      <div class="log_form" id="log_form" style="display: none;">
+        <form onsubmit="event.preventDefault(); login();">
+          <h2>Welcome Back</h2>
+
+          <label for="log_name">Username</label><br />
+          <input type="text" id="log_name" name="log_name" required /><br /><br />
+
+          <label for="log_password">Password</label><br />
+          <input type="password" id="log_password" name="log_password" minlength="8" required /><br /><br />
+
+          <button class="submit">Log in</button>
+
+          <h4>Don't have an account?</h4>
+          <a href="#" onclick="showRegister()">Sign up</a>
+        </form>
+      </div>
+
+      
+      <div class="home" id="home" style="display: none;">
+        <h2>Welcome <span id="userDisplay"></span></h2>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="task1.js"></script>
+</body>
+
+</html>

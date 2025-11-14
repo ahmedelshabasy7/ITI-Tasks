@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    
+    
+    <form action= "Table.html" method="get">
+        <fieldset>
+            <legend>My form</legend>
+
+            <h2>Your basic info</h2>
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+            <label>Age:</label><br>
+            <input type="radio" id="under16" name="age" value="under16" required>
+            <label for="under16">Under 16</label><br>
+            <input type="radio" id="over16" name="age" value="over16" required>
+            <label for="over16">16 or Older</label><br><br>
+
+            <h2>Your profile</h2>
+
+            <label for="bio">Biography</label><br>
+            <textarea id="bio" name="bio" minlength="10" maxlength="100" required></textarea><br><br>
+
+            <label for="courses">Select Courses</label><br>
+            <select id="cse" name="cse" title = "Select your course">
+                <option value="cse">Computer Science Engineering</option>
+                <option value="es">Embedded Systems</option>
+                <option value="wd">Web Development</option>
+            </select><br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" id="engineering" name="interests" value="engineering">
+            <label for="engineering">Engineering</label><br>
+            <input type="checkbox" id="business" name="interests" value="business">
+            <label for="business">Business</label><br>
+            <input type="checkbox" id="law" name="interests" value="law">
+            <label for="law">Law</label><br><br>
+
+            <input type="submit" value="SUBMIT">
+
+           </fieldset>
+
+        </form>
+</body>
+
+</html>
+

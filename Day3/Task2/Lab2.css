@@ -1,0 +1,96 @@
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        text-align: center;
+    }
+    .basic , .prof , .master {
+        background-color: white;
+        border-radius: 10px;
+        width: 300px;
+        height: fit-content;
+        padding: 20px;
+        line-height: 1;
+        color: gray;
+        margin: 0px 5px 0px 5px;
+        font-size: 20px;
+        box-shadow: -1px -1px 10px rgb(189, 186, 186);
+        position: relative;
+        transition: all 0.7s ease;
+        position: relative;
+        z-index: 1;
+    }
+
+    .price {
+        color: black;
+        font-size: 55px;
+        transition: all 0.7s ease;
+    }
+
+    .button {
+        width: 70%;
+        height: 40px;
+        background-color: rgb(144, 148, 236);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 20px 0px 20px 0px;
+        font-weight: bold;
+        font-size: 15px;
+        transition: all 0.7s ease;
+    }
+
+    hr {
+        width: 70%;
+    }
+
+
+    .basic:hover {
+        background-color: rgb(144, 148, 236);
+        color: white;
+        transform: scale(1.1);
+        z-index: 999;
+    }
+
+    .basic:hover .button {
+        background-color: white;
+        color: rgb(144, 148, 236);
+    }
+
+    .basic:hover .price {
+        color: white;
+    }
+
+    .prof:hover {
+        background-color: rgb(144, 148, 236);
+        color: white;
+        transform: scale(1.1);
+        z-index: 999;
+    }
+
+    .prof:hover .button {
+        background-color: white;
+        color: rgb(144, 148, 236);
+    }
+
+    .prof:hover .price {
+        color: white;
+    }
+
+    .master:hover {
+        background-color: rgb(144, 148, 236);
+        color: white;
+        transform: scale(1.1);
+        z-index: 999;
+    }
+
+    .master:hover .button {
+        background-color: white;
+        color: rgb(144, 148, 236);
+    }
+
+    .master:hover .price {
+        color: white;
+    }

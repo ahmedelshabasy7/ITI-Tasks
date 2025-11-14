@@ -1,0 +1,28 @@
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 20px 20px;
+}
+
+.photos img {
+    border: 1px solid black;
+    height: 80px;
+    margin: 0 10px;
+}
+
+.final_photo {
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_img {
+    height: 400px;
+    width: 500px;
+    display: none;
+}

@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #333;
+}
+
+
+.header {
+  background-color: #6c63ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.nav-links {
+  margin-top: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.product input[type="number"] {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #574ed6;
+}
+
+
+.cart-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.total-section {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary-items {
+  margin-bottom: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.thanks {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.thanks h2 {
+  font-size: 36px;
+  color: #6c63ff;
+  margin-bottom: 20px;
+}
+
+.thanks p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.thanks a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #6c63ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.thanks a:hover {
+  background-color: #574ed6;
+}
+
+.payment-form {
+  background-color: white;
+  max-width: 600px;
+  margin: 40px auto 0;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-size: 16px;
+  color: #333;
+}
+
+.payment-form h2 {
+  margin-bottom: 20px;
+  color: #6c63ff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"],
+.payment-form input[type="email"],
+.payment-form input[type="tel"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.payment-form input[type="text"]:focus,
+.payment-form input[type="number"]:focus,
+.payment-form input[type="email"]:focus,
+.payment-form input[type="tel"]:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+.payment-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6c63ff;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #574ed6;
+}
+
+.author {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #6c63ff;
+      height: 120px;
+      color: white;
+      margin-top: 150px;
+      padding-top: 12px;
+    }
+
+.footer {
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+.social {
+      margin-left: 10px;
+    }
+
+    .social i {
+      padding-left: 6px;
+    }
+
+ .pick-2 {
+      font-size: 20px;
+      margin-top: 6px;
+    }

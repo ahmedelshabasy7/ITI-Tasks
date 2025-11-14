@@ -1,0 +1,39 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 10px 10px ;
+    
+}
+
+.btn button{
+    margin: 40px 0px 20px 20px ;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background:rgb(19, 113, 229);
+    color:white;
+    font-size: 14px;
+}
+
+.btn button:hover {
+    background-color: #5580ae; 
+}
+.btn button:active {
+    background-color: #5580ae; 
+    transform: scale(0.98); 
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.photos img{
+    border : 1px solid black;
+    height: 200px;
+}
+
