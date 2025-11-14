@@ -49,7 +49,7 @@ Introduction to Web Technologies (HTML – CSS – JavaScript)
 
 [Task 1](https://ahmedelshabasy7.github.io/ITI-Tasks/Day9/Task1/task1.html)<br>
 [Task 2](https://ahmedelshabasy7.github.io/ITI-Tasks/Day9/Task2/task2.html)<br>
-[Task 3](https://ahmedelshabasy7.github.io/ITI-Tasks/Day9/Task3/task3.html)<br>
+[Task 3](https://ahmedelshabasy7.github.io/ITI-Tasks/Day9/Task3/task3.html)
 
  # Day 10:
 
